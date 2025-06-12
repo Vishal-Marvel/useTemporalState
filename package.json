@@ -1,0 +1,30 @@
+{
+  "name": "use-temporal-state",
+  "version": "1.0.0",
+  "description": "A custom React hook for undo/redo state management",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "react",
+    "hook",
+    "undo",
+    "redo",
+    "state",
+    "typescript"
+  ],
+  "author": "Vishal N <vishaln.2021@gmail.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^17.0.0 || ^18.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.8",
+    "typescript": "^5.8.3"
+  }
+}

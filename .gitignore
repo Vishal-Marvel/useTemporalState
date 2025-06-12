@@ -1,0 +1,30 @@
+# dependencies
+node_modules/
+
+# build output
+dist/
+build/
+
+# test coverage
+coverage/
+
+# environment variables
+.env
+.env.*
+
+# misc
+.DS_Store
+*.log
+*.tgz
+
+# editor directories and files
+.vscode/
+.idea/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# npm
+npm-debug.log*
+.yarn/
+.pnpm-debug.log*
