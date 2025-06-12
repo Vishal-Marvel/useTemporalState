@@ -20,6 +20,10 @@
   ],
   "author": "Vishal N <vishaln.2021@gmail.com>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Vishal-Marvel/useTemporalState"
+  },
   "peerDependencies": {
     "react": "^17.0.0 || ^18.0.0"
   },
