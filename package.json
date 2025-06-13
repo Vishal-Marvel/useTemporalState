@@ -1,22 +1,26 @@
 {
   "name": "use-temporal-state",
   "version": "1.0.2",
-  "description": "A custom React hook for undo/redo state management",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
-    "dist"
+    "dist",
+    "README.md"
   ],
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "test": "jest",
+    "test:coverage": "jest --coverage"
   },
+  "description": "A lightweight React hook for undo/redo state management with history compression.",
   "keywords": [
     "react",
     "hook",
     "undo",
     "redo",
+    "temporal",
     "state",
-    "typescript"
+    "history"
   ],
   "author": "Vishal N <vishaln.2021@gmail.com>",
   "license": "MIT",
@@ -25,10 +29,17 @@
     "url": "https://github.com/Vishal-Marvel/useTemporalState"
   },
   "peerDependencies": {
-    "react": "^17.0.0"
+    "react": "^19.0"
   },
   "devDependencies": {
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.3.0",
+    "@testing-library/react-hooks": "^8.0.1",
+    "@types/jest": "^29.5.14",
     "@types/react": "^19.1.8",
+    "jest": "^30.0.0",
+    "jest-environment-jsdom": "^30.0.0",
+    "ts-jest": "^29.4.0",
     "typescript": "^5.8.3"
   }
 }
