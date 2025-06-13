@@ -32,7 +32,7 @@ yarn add use-temporal-state
 ## 🚀 Usage
 
 ```tsx
-import useTemporalState from 'use-temporal-state';
+import {useTemporalState} from 'use-temporal-state';
 
 function TodoApp() {
   const {
