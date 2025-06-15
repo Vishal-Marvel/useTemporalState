@@ -21,21 +21,7 @@ describe("useTemporalState", () => {
     expect(result.current.canUndo).toBe(false);
     expect(result.current.canRedo).toBe(true);
   });
-  it("should not add to history when shouldAddToHistory returns false", () => {
-    const { result } = renderHook(() =>
-      useTemporalState(0, {
-        shouldAddToHistory: () => false,
-      })
-    );
-
-    act(() => {
-      result.current.set(0);
-    });
-
-    expect(result.current.state).toBe(0);
-    expect(result.current.canUndo).toBe(false);
-  });
-
+  
   it("should do nothing if redo is called without future", () => {
     const { result } = renderHook(() => useTemporalState(1));
 

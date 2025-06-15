@@ -28,17 +28,22 @@
     "url": "git+https://github.com/Vishal-Marvel/useTemporalState.git"
   },
   "peerDependencies": {
-    "react": "^19.0"
+    "react": ">=16.8.0 <20.0.0",
+    "react-dom": ">=16.8.0 <20.0.0"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.3.0",
     "@testing-library/react-hooks": "^8.0.1",
     "@types/jest": "^29.5.14",
-    "@types/react": "^19.1.8",
+    "@types/react": "^18.2.55",
     "jest": "^30.0.0",
     "jest-environment-jsdom": "^30.0.0",
     "ts-jest": "^29.4.0",
     "typescript": "^5.8.3"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
   }
 }
